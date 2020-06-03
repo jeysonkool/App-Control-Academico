@@ -1,0 +1,43 @@
+/* 
+    Document   : formularios
+    Created on : 3/06/2013, 09:19:10 AM
+    Author     : andy henry
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+  .box-text{
+              outline: none;
+                width: 90%;
+                padding: 10px 5px 5px 10px; 
+		color: #000000; 
+		font-family: Arial, Helvetica, sans-serif;   
+		font-size: 14px; 
+		border: 1px solid #c9c9c9 ;
+}
+          
+   .box-text:focus{
+                outline: 0;
+		border: 1px solid #000000;
+}
+
+#tabla-contenedora{
+ width:95%; 
+ overflow-x:hidden;
+ height:30%;
+ padding-left: 5px;
+}
+
+#tabla-consulta{
+padding-left:5px;     
+overflow-x:hidden;
+width: 510px; 
+height:200px;
+}
+
+
+
