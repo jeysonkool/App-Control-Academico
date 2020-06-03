@@ -128,10 +128,10 @@ export COMPOSE_PROJECT_NAME=App-Control-Academico PATH=$PWD/bin:$PATH APACHE_RUN
 Direnv al procesar tal archivo define entonces 4 variables:
 
 * **COMPOSE_PROJECT_NAME:** Cuando usemos docker-compose en el directorio
-  `docker/` el proyecto de docker-compose se llamará kimkelen. Si esta variable
+  `docker/` el proyecto de docker-compose se llamará App-Control-Academico. Si esta variable
   no existiese, entonces se llamaría como el nombre del directorio, que en este
   caso es docker.
-* **PATH:** altera el PATH del sistema mientras trabajamos con kimkelen.
+* **PATH:** altera el PATH del sistema mientras trabajamos con el App-Control-Academico.
   Esencialmente, buscará en el PATH `bin/` del directorio de este repositorio
   antes que en el path del sistema. De esta forma, la distribución podría tener
   instalado php 7, pero dentro del directorio php será 5.3. Asímismo sucede con el
@@ -181,7 +181,7 @@ php symfony App-Control-Academico:flavor demo
 ```
 
 > Este comando  inicializa la visualización llamada demo. Es la personalización
-> de kimkelen usada como punto de partida
+> del App Control Academico usada como punto de partida
 
 ```
 php symfony propel:build-all-load
