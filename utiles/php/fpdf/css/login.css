@@ -1,0 +1,265 @@
+body{  
+ line-height:1.6em;  
+}  
+
+
+#msg{
+position:adsolute;
+color: #b94a48;
+font-weight:bold;
+font-size:12px;
+font-family: Arial, Helvetica, sans-serif; 
+text-shadow: 0 1px 0 white;
+}
+.olvidoPass{
+font-family: 'Arial',Arial Narrow, sans-serif;
+text-decoration:none;
+font-size: 14px;
+color:#0089e1;
+margin-bottom: 0px;  
+text-shadow: 0 1px 0 white;
+}
+ .olvidoPass:hover{
+font-size: 14px;
+color: #2575CF;
+margin-bottom: 0px;
+text-shadow: 0 1px 0 white;
+ }
+.button {
+font-family: Arial, Helvetica, sans-serif;   
+color: #FFF;
+text-decoration: none;
+border-top: 0px;
+border-left: 0px;
+border-right: 0px;
+border-bottom: 0px solid rgba(0,0,0,0.25);
+position: relative;
+cursor:pointer;
+font-size:140%;
+width: 67%;
+padding: 10px 10px 10px 10px; 
+background-color: #0089e1;
+} 
+.button :hover{
+ background-color: #2575CF;    
+}
+.button:active{ 
+top: 1px;
+}
+/**********************CUERPO************************/
+#cuerpo{
+    width:100%;
+    height:auto;
+    background-color:#fff;
+    margin:auto;
+    padding-top: 10%
+}
+.escudo{
+  float:left; 
+  position:relative;
+  margin-left: 9%;
+  height:419px ;
+  width:40%; 
+}
+
+.separador{
+   float:left;
+   position:relative;
+   width: 1%;
+   height: 400px;
+   background-color: #c9c9c9;
+   
+}
+
+#login{
+ float:left; 
+ position:relative;
+ margin-left: 10%;
+ width: 40%;
+}
+
+#login h1{
+    color:#444444;
+    font-size:300%;
+   text-shadow: 0 1px 0 white;
+    font-family: 'Arial narrow', sans-serif;
+    font-weight: normal;
+    margin: 0px 0px 0px 0px;
+}
+
+#login input{
+  margin-top: 20px;  
+}
+#login button{
+  margin-top: 20px;  
+}
+
+.cajaTexto{
+                outline: none;
+                width: 60%;
+                padding: 15px 10px 10px 15px; 
+		color: #000000; 
+		font-family: Arial, Helvetica, sans-serif;   
+		font-size: 140%; 
+		border: 1px solid #c9c9c9 ;
+}
+.cajaTexto:focus{
+                outline: 0;
+		border: 1px solid #000000;
+}
+
+.mensaje{
+    margin-top: 10px;
+    color:#444444;
+    font-size: 14px;
+    text-shadow: 0 1px 0 white;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    margin: 0px 0px 0px 0px; 
+}
+/******************FIN CUERPO**************************/
+/**********************FOOTER**********************/
+#footer{
+    border-top: 2px solid #c9c9c9;
+    width:100%;
+    margin-bottom:10px; 
+    position:absolute;
+    bottom: 10px;
+    background-color: white;
+}
+
+#opcionesFooter{
+   position: relative;
+    margin-left: 8%;
+    margin-top: 1.5%; 
+    float:left;
+}
+#opcionesFooter li{
+    display: inline
+      
+}
+#opcionesFooter li a{
+   display: block;
+    float: left;
+    color: #666;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Arial',Arial Narrow, sans-serif;
+    padding-left: 40px;
+}
+
+#opcionesFooter li a:hover {
+    color:#000;	     
+}
+
+/********FIN DE EL FOOTER*****************/
+
+@media screen and (min-width:1200px){  
+ .escudo {  
+ height:419px ;
+ width:40%;  
+ }  
+  
+ #cuerpo{  
+ width:1100px;  
+ }    
+  
+ h1{  
+ font-size:300%;   
+ }                            
+  
+}
+
+@media screen and (max-width:480px){  
+ 
+#cuerpo{
+    width:90%;
+    height:50%;
+    margin:auto;
+    padding-top:0%;
+  
+}
+
+ .escudo{
+  float:center; 
+  position:relative;
+  height:250px;
+  width:80%; 
+  background: url(../imagenes/escudoMovil.png)no-repeat;
+  margin-left: 10%;
+}
+
+#login{ 
+ padding-top: 20px;
+ float:center; 
+ position:relative;
+ width: 100%;
+
+}
+
+.separador{
+   width: 0%;
+   height: 0;  
+}
+
+.logo{
+    position: relative;
+    margin-left: 40%;
+    margin-bottom:0;
+    float:center;
+    height:80px ;
+    width:100%; 
+    background: url(../imagenes/logoFooter.png)no-repeat;
+}
+
+.cajaTexto{
+                outline: none;
+                width: 60%;
+                padding: 15px 10px 10px 15px; 
+		color: #000000; 
+		font-family: Arial, Helvetica, sans-serif;   
+		font-size: 140%; 
+		border: 1px solid #c9c9c9 ;
+}
+
+#login input{
+  margin-top: 10px;  
+}
+#login button{
+  margin-top: 10px;  
+}
+
+.mensaje{
+    margin-top: 5px;
+}
+#footer{
+    padding-top: 30px;
+    float:center; 
+    width:100%;
+    height:0%;
+    background-color:#e62746;
+    position:relative;
+}
+
+#opcionesFooter li{
+    display:list;
+      
+}
+
+#opcionesFooter li a{
+   display: block;
+    float: left;
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Arial',Arial Narrow, sans-serif;
+    padding-left: 40px;
+}
+
+#opcionesFooter li a:hover {
+    color:#000;	     
+}
+  
+}  

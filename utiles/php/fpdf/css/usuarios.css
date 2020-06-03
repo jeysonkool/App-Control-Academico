@@ -1,0 +1,231 @@
+/* 
+    Document   : docentes
+    Created on : 24/06/2013, 09:07:18 AM
+    Author     : andy henry
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#titulo-menu{
+background-color: #eeeeee;
+padding-right: 3px; 
+border: 1px solid #cccccc;
+border-bottom: 0px;
+}
+
+/************menu salones******************/
+#menu {
+	list-style: none;
+	padding: 0;
+	margin-left: 5%;
+	background: -moz-linear-gradient(top, #eeeeee , #cccccc);
+        background: -webkit-gradient(linear, 0 0, 0 100%, from(#eeeeee),  to(#cccccc));
+	display: block;
+	overflow: hidden;
+	font-size: 0.9em;
+        width: 90%;
+	height:33px;
+	text-transform:capitalize;
+	border-radius: 3px;
+        border: 1px solid #cccccc;	
+        border-bottom: 1px solid #b7b7b7;
+        text-shadow: 0 1px 0 white;
+            
+}
+
+#menu li {
+	display: inline;
+}
+#menu li a {
+	display: block;
+	float: left;
+	padding: 10px 20px;
+	color: #777;
+	text-decoration: none;
+        font-size: 12px;
+        font-weight: bold;
+        border-right: 1px solid #eee;  
+}
+#menu li a:hover {
+    background: #cccccc;
+    color:black;	     
+}
+
+#menu li a:active {
+    background:#999;
+    color:black;	     
+}
+
+/***************************************/
+
+.avatar{
+padding-left: 30px;  
+ padding-top: 25px;   
+ position: relative;  
+}
+
+
+.marcoAvatardoc{   
+width: 215px; 
+height:199px; 
+position: relative;
+background-color:#fe2b35;
+}
+
+.marcoAvatarest{  
+width: 215px; 
+height:199px; 
+position: relative;
+background-color:#4c6eff;
+}
+.pic{
+ position:absolute;  
+ margin-top: 3px;
+ margin-left:185px;
+ z-index: 999;
+}
+
+.marcoAvatarCoor{  
+width: 215px; 
+height:199px; 
+position: relative;
+background-color:#00d73d;
+}
+
+.marcoAvatar{
+ width: 100%; 
+height:199px; 
+position: relative;
+background-color:#3a3a3a;  
+
+}
+
+.carga-pag{
+width:100%; 
+height:90%; 
+}
+
+.link-menu{
+  color:#666;
+  font-size: 15px;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.link-menu:hover{
+ color:#000;  
+}
+
+/***** MENU ACORDEON VERTICAL ******/
+#accordion {
+ list-style: none;
+ padding: 0 0 0 0;
+ width: 80%;
+ margin-left: 10%;
+ margin-top:  5%;
+ }
+ #accordion span {
+ display: block;
+ font-size:16px;
+ color:#000;
+ cursor: pointer;
+ padding: 5px;
+ margin:0;
+ background-color:transparent;
+ background-position: right center;
+ background-repeat:no-repeat;
+ border-bottom: 1px solid #5b6163;
+ }
+ #accordion ul {
+ background-color:transparent;
+ list-style-type: none;
+ display: none;
+ /*background: #eff2f5 url(/images/stripes.png) repeat;*/
+ }
+ #accordion ul li {
+ cursor: auto;
+ padding: 5px;
+ width: 80%;
+ height: 50%;
+ }
+ 
+ /****REDONDEAR IMAGENES/************/
+ .rounded{
+    display:inline-block;
+    position:relative;
+    overflow:hidden;
+}
+
+.rounded > img{
+     
+    vertical-align:top;
+    -webkit-border-radius:100em;
+}
+
+.rounded, .rounded:before{
+    -moz-border-radius:100em;
+    border-radius:100em;
+    
+}
+
+.rounded:before{
+    content:'';
+    display:block;
+    position:absolute;
+    left:0;
+    right:0;
+    width:100%;
+    height:100%;
+    margin:-10em;
+    border:10em solid white;
+   
+}​
+
+/*******************contenido ventane emergente de consulta*********************************/
+
+.contenedorDa {
+float:center;
+background-color: red;
+}
+
+.contenedorDp{
+float:left;
+margin-top:10px;
+margin-left: 10px;
+position: relative;
+background-color: #ecf1f4; 
+border: 1px solid #b0b4b6;
+padding-left:4px;
+padding-top:4px; 
+padding-right: 4px;
+width:217px; 
+height:90%;
+}
+
+.contenedorCentro {
+float:left;
+margin-left:4px;
+margin-top: 10px;
+position: relative;
+padding-left:4px;
+padding-top:4px; 
+padding-right: 4px;
+width:70%; 
+height:90%;
+}
+/***********************************fin*********************************************/
+#inf-Personal td{
+    border-bottom: 1px solid #d3d9dc;
+    color: #777;
+    padding-top: 10px;
+    padding-bottom: 10px;
+     font-size: 12px;
+    font-weight: bold;
+    font-family: 'Arial',Arial Narrow, sans-serif;
+}
+span{
+    color:#3b5998;
+}

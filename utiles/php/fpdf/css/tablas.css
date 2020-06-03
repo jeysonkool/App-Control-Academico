@@ -1,0 +1,77 @@
+/* 
+    Document   : tablas
+    Created on : 19/06/2013, 06:30:42 PM
+    Author     : andy henry
+    Description:
+        Purpose of the stylesheet follows.
+*/
+root { 
+    display: block;
+}
+.tabla .modo1 {
+font-size: 16px;
+color: #434343;
+font-weight:bold;
+height: 35px;
+text-shadow: 0 1px 0 white;
+
+}
+.tabla .modo1 td {
+padding: 5px;
+border: 1px solid #b1b1b1;
+background-color:#dbdbdb; 
+}
+
+.tabla .modo1 th {
+padding: 5px;
+border: 1px solid #b1b1b1;
+background-color:#dbdbdb; 
+}
+
+.formularios{
+ background-color:white;   
+ border: 1px solid #d3d6db;  
+ position: relative;
+ height:100%; 
+}
+.cab-form{  
+ margin: 0;
+ background-color: #f6f7f8;
+ border-bottom:  1px solid #d3d6db; 
+ font-size: 16px;
+ font-weight:bold;
+ color: #434343;
+ text-shadow: 0 1px 0 white;
+ padding-left : 30px;
+ padding-top: 15px;
+ padding-bottom: 15px;
+ padding-right: 10px;
+}
+
+
+
+.den-form{
+ padding:30px; 
+}
+.den-form td{
+padding-left:5px; 
+padding-right: 5px;
+padding-top: 5px;
+}
+
+.datos-consulta{
+ font-family: 'arial';
+ font-size: 13px;   
+ color:#666;
+}
+.datos-consulta a{
+ font-family: 'arial';
+ font-size: 13px; 
+ font-weight:bold;
+ color: #3b5998;
+}
+
+.datos-consulta a:hover{
+  color: #000;  
+}
+
