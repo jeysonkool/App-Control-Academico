@@ -38,12 +38,12 @@ volumes:
   persons-photos:
 services:
   app:
-    image: registry.gitlab.com/kimkelen/kimkelen:latest
+    image: registry.gitlab.com/jeysonkool/Control-academico:latest
     environment:
       DB_HOST: db
       DB_NAME: kimkelen
-      DB_PASSWORD: root
-      DB_USERNAME: root
+      DB_PASSWORD: poli2020
+      DB_USERNAME: politecnico
       DEBUG: 'false'
       FLAVOR: demo
       MEMCACHE_HOST: memcache
@@ -67,8 +67,8 @@ services:
   db:
     image: mysql:5.6
     environment:
-      MYSQL_DATABASE: kimkelen
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: colegios
+      MYSQL_ROOT_PASSWORD: poli2020
     volumes:
     - db:/var/lib/mysql
 ```
@@ -96,7 +96,7 @@ instalación:
 Primero es necesario clonar este repositorio:
 
 ```
-git clone git@github.com:Desarrollo-CeSPI/kimkelen.git
+git clone git@github.com:jeysonkool/Control-academico.git
 ```
 
 > Si va a realizar cambios, se recomienda que forkee el repositorio en GitHub y
