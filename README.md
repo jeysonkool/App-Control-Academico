@@ -11,7 +11,7 @@ Sistema de Control Académico para Colegios Privados y Públicos, Desarrollado p
 Se recomienda utilizar cualquier distribución Linux y usar docker como se explica a continuación. En la brevedad armaremos la documentación para trabajar con windows.
 
 
-## Cómo Instalar Docker
+# Cómo Instalar Docker
 
 Instalar Docker es bastante sencillo. En primer lugar, nos dirigimos a su página web https://www.docker.com/community-edition y descargamos la versión para nuestro sistema operativo.
 
