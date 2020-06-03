@@ -10,7 +10,7 @@ Sistema de Control Académico para Colegios Privados y Públicos, Desarrollado p
 
 Se recomienda utilizar cualquier distribución Linux y usar docker como se explica a continuación. En la brevedad armaremos la documentación para trabajar con windows.
 
-# Instalación del App-Control-Academico usando docker
+# Instalación del App Control Academico usando docker
 
 
 ## Instalación de docker-compose
