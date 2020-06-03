@@ -85,7 +85,7 @@ Debe considerar editar las variables de ambiente que permiten modificar su
 instalación:
 
 * `TESTING:` si el valor es true, muestra una leyenda que indica que es una versión de prueba
-* `FLAVOR:` configura el flavor de esta instalación de kimkelen. Por defecto se
+* `FLAVOR:` configura el flavor de esta instalación del App Control Academico. Por defecto se
   asume **demo**.
 * `DEBUG:` configura el producto para trabajar en modo dev, esto es, se muestra
   la barra de symfony y los errores con más detalle. Útil para detectar
@@ -131,11 +131,11 @@ Direnv al procesar tal archivo define entonces 4 variables:
   `docker/` el proyecto de docker-compose se llamará App-Control-Academico. Si esta variable
   no existiese, entonces se llamaría como el nombre del directorio, que en este
   caso es docker.
-* **PATH:** altera el PATH del sistema mientras trabajamos con el App-Control-Academico.
+* **PATH:** altera el PATH del sistema mientras trabajamos con el App Control Academico.
   Esencialmente, buscará en el PATH `bin/` del directorio de este repositorio
   antes que en el path del sistema. De esta forma, la distribución podría tener
   instalado php 7, pero dentro del directorio php será 5.3. Asímismo sucede con el
-  comando mysql, que accede directamente al mysql de kimkelen dentro del stack de
+  comando mysql, que accede directamente al mysql del App Control Academico dentro del stack de
   docker-compose
 * **APACHE_RUN_USER:** usuario con el que correrá el apache dockerizado. Se
   inicializa con su usuario del sistema.
