@@ -41,7 +41,7 @@ services:
     image: registry.gitlab.com/jeysonkool/Control-academico:latest
     environment:
       DB_HOST: db
-      DB_NAME: kimkelen
+      DB_NAME: colegios
       DB_PASSWORD: poli2020
       DB_USERNAME: politecnico
       DEBUG: 'false'
