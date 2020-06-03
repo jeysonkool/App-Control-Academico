@@ -1,0 +1,47 @@
+version: '2'
+volumes:
+  colegios-db:
+services:
+  app: &php-app
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    environment:
+      MEMCACHE_HOST: memcache
+      MEMCACHE_PORT: 11211
+      DB_NAME: colegios
+      DB_HOST: db
+      DB_USERNAME: politecnico
+      DB_PASSWORD: poli2020
+      DEBUG: 'true'
+      APACHE_RUN_GROUP: $APACHE_RUN_GROUP
+      APACHE_RUN_USER: $APACHE_RUN_USER
+      #    entrypoint: tail -f /dev/null
+    ports:
+      - "80:80"
+    links:
+      - memcache
+      - db
+    volumes:
+      - ../:/app
+      - /etc/passwd:/etc/passwd:ro
+      - /etc/group:/etc/group:ro
+  memcache:
+    image: memcached:1.4
+    command: -m 256
+  db:
+    image: mysql:5.6
+    environment:
+      MYSQL_ROOT_PASSWORD: poli2020
+      MYSQL_DATABASE: colegios
+    volumes:
+      - colegios-db:/var/lib/mysql
+    restart: unless-stopped
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    environment:
+      PMA_HOST: db
+      PMA_USER: politecnico
+      PMA_PASSWORD: poli2020
+    ports:
+      - "80:80"
