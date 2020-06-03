@@ -3,12 +3,22 @@
 Sistema de Control Académico para Colegios Privados y Públicos, Desarrollado para Unidades Educativas del Estado Colombiano, es un sistema bastante versatíl y dinámico, Diseño tanto para Plataformas de Escritorio mediante el navegador, como también para dispositivos móviles (Tablet, Móviles) adecuandonse el sistema a la resolución del dispositivo de manera correcta y eficiente.
 
 ## Integrantes del proyecto
-* Jeyson Escalona
-* Amrando
+* Jean Nichell Mahecha Ramirez
+* Jeyson Escalona Pomare
 
 ## Recomendaciones
 
 Se recomienda utilizar cualquier distribución Linux y usar docker como se explica a continuación. En la brevedad armaremos la documentación para trabajar con windows.
+
+
+## Cómo Instalar Docker
+
+Instalar Docker es bastante sencillo. En primer lugar, nos dirigimos a su página web https://www.docker.com/community-edition y descargamos la versión para nuestro sistema operativo.
+
+Ejecutamos el instalador, y seguimos las instrucciones proporcionadas en la página Web para nuestro SO. En la mayoría de los casos no se requiere ninguna acción más que aceptar las opciones del instalador.
+
+En el caso de emplear Windows 10 podemos elegir si queremos ejecutar containers de Windows o de Linux. Es posible cambiar esta opción más adelante a través del menú contextual del icono de Docker.
+
 
 # Instalación del App Control Academico usando docker
 
