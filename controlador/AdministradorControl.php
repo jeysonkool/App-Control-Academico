@@ -1,7 +1,7 @@
 <?php
 /**
  * Description of AdministradorControl
- *
+ * POLIGRAN PROYECTO INTEGRACION CONTINUA
  * @author JoseCarlos
  */
 
