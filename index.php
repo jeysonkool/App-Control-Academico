@@ -6,7 +6,7 @@ define('HOME', dirname(__FILE__));
 
 date_default_timezone_set("America/Bogota");
 ini_set('display_erros', 1);
-/**
+/**  POLIGRAN INTEGRACION CONTINUA
  * Esta funcion se utiliza para cambiar de INFORMACION DE ERRORES
  * a MANEJO DE EXCEPCIONES
  * @param type $code
