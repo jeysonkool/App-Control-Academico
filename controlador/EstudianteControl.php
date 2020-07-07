@@ -8,7 +8,7 @@
 /**
  * Description of EstudianteControl
  *
- * @author AndyHenry
+ * @author JEYSONKOOL
  */
 class EstudianteControl extends Controlador{
     
