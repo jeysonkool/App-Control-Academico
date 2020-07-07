@@ -1,8 +1,8 @@
 <?php
 
-/**
+/** POLIGRAN PROYECTO INTEGRACION CONTINUA
  * Clase para manejar los controladores en la aplicacion
- * @author andyhenry
+ * @author JEYSONKOOL
  *
  */
 class UsuarioControl extends Controlador {
