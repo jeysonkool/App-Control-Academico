@@ -1,6 +1,6 @@
 <?php
 
-/**
+/** POLIGRAN PROYECTO INTEGRACION CONTINUA
  * Clase principal de los controladores en la aplicacion
  * @author Wilman Vega <wilmanvega@gmail.com>
  *
