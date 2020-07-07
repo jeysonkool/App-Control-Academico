@@ -8,7 +8,7 @@
 /**
  * Description of AdministradorControl
  *
- * @author JoseCarlos
+ * @author JEYSONKOOL
  */
 class InicioControl extends Controlador{
     
